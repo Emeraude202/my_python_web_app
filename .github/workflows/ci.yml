@@ -22,8 +22,7 @@ jobs:
         username: emeraude202
         password: dckr_pat_N3xbwHad-SIZ0UoiUtnZMhxgOn8
 
-    - name: Build and push Docker image
-      uses: docker/build-push-action@v2
+    - name: Build and push Docker hub
       run: |
         docker push emeraude202/my_python_web_app_web:latest
         
